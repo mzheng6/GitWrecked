@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/5.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -71,6 +71,11 @@ hr {
     font-size: 4em;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  line-height: 1;
+  max-height: 550px;
+}
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
@@ -100,6 +105,9 @@ hr {
 .img-left {
     float: none;
     margin: 0 auto 0;
+    max-height: 250px;
+    max-width: 250px;
+
 }
 
 footer {
@@ -109,7 +117,7 @@ footer {
 
 footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 15px 0;
 }
 
 @media screen and (min-width:768px) {
@@ -180,6 +188,7 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+        text-align: center !important;
     }
 }
 
